@@ -1,1 +1,9 @@
-remote_theme: macrod68/jekyll-materialize-starter-template
+title: QwertyWorks
+author: Intern
+email: theintern@qwertyworks.com
+description: > # this means to ignore newlines until "baseurl:"
+  We sell light :D
+github_username:  kamakshidasan
+
+sass:
+    style: compressed
