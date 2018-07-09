@@ -1,6 +1,10 @@
 #home{
-	background-color: #232323;
+	background-color: black;
 	height: 100vh;
+}
+
+body{
+	background-color: black;
 }
 
 #logo{
@@ -54,15 +58,14 @@
 	height: 100vh;
 	background-color: black;
 	color: white;
-	
 	padding-top: 40px;
 }
 
 .sectionDownload{
-	height: 50vh;
-	padding-top: 40px;
-	/*background-color: #ff9000*/
-
+	height: 25vh;
+	margin-top: 100px;
+/*	background-color: #ff9000
+*/
 }
 
 .sectionFAQ{
@@ -94,6 +97,16 @@
 	content: url("images/warmwhite2.jpg");
 }
 
+#image{
+	max-width: 100%;
+	height: auto;
+}
+
+#image1{
+	max-width: 100%;
+	height: auto;
+}
+
 #image1:hover{
 	content:url("images/coolwhite1.jpg");
 }
@@ -102,6 +115,7 @@
 	background-color: black;
 	color:white;
 	font-size: 18px;
+	padding-top: 100px;
 }
 
 #product:hover{
@@ -165,6 +179,7 @@
 
 #downloadLogoApple{
 	margin-top: 50px;
+	margin-bottom: 20px;
 }
 
 .logoDownload{
@@ -178,9 +193,7 @@ body{
 }
 
 .brightness {
-    background-color: white;
-    display: inline-block;
-
+    background-color: black;
 
 }
 .brightness img:hover {
@@ -197,7 +210,7 @@ img{
 	max-width: 100%;
 	height: auto;	
 	background-size: contain;
-	    background-repeat: no-repeat;
+	background-repeat: no-repeat;
 
 }
 
@@ -216,10 +229,7 @@ footer{
 */
 }
 
-.sectionFeatures{
-	padding-top: 60px;
-	height: 100vh;
-}
+
 
 .intro{
 	color: white;
@@ -231,4 +241,13 @@ footer{
 	text-align: justify;
 	resize: both;
 	overflow: auto;
+}
+
+#app{
+	padding-top: 100px;
+}	
+
+
+#features{
+	padding-top: 100px;
 }	
