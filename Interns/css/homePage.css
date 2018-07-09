@@ -67,11 +67,11 @@
 }
 
 #image:hover{
-	content: url("warmwhite2.jpg");
+	content: url("images/warmwhite2.jpg");
 }
 
 #image1:hover{
-	content:url("coolwhite1.jpg");
+	content:url("images/coolwhite1.jpg");
 }
 
 #product{
@@ -132,3 +132,17 @@ footer{
 	height:40px;
 	font-size: 20px;
 	background-color: #f4a142;
+}
+
+#photoSection{
+	margin-left: 40px;
+	margin-right: 40px;
+	max-height: 100%;
+/*	max-width: 100%;
+*/
+}
+
+.sectionFeatures{
+	padding-top: 60px;
+	height: 100vh;
+}
