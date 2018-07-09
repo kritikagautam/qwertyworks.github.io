@@ -4,7 +4,7 @@
 }
 
 #logo{
-	margin-top: 150px;
+	margin-top: 200px;
 }
 
 
@@ -30,7 +30,7 @@
 	height: 100vh;
 	background-color: black;
 	color: white;
-	border-top: 2px solid white;
+	
 	padding-top: 40px;
 }
 
@@ -146,3 +146,15 @@ footer{
 	padding-top: 60px;
 	height: 100vh;
 }
+
+.intro{
+	color: white;
+	margin-top: 175px;
+	font-size: 20px;
+	border:2px solid white;
+	margin-right: 30px;
+	padding-right: 20px;
+	text-align: justify;
+	resize: both;
+	overflow: auto;
+}	
