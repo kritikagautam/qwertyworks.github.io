@@ -10,6 +10,22 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    <link rel="shortcut icon" sizes="114x114" href="favicon.ico" type="image/x-icon">
+	  <script>
+$(document).ready(function(){
+      $('body').append('<div id="toTop" class="btn btn-warning btn-lg btn3d"><span class="glyphicon glyphicon-chevron-up"></span></div>');
+    	$(window).scroll(function () {
+			if ($(this).scrollTop() != 0) {
+				$('#toTop').fadeIn();
+			} else {
+				$('#toTop').fadeOut();
+			}
+		});
+    $('#toTop').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+    });
+});
+</script>
 
   </head>
 
@@ -87,21 +103,38 @@
               <center>
                 <img id="image" src="warmwhite1.jpg" style="width:600px; height:500px;padding-top:20px;">
               </center>
+		    <br>
+	<section class="effect-btn">
+    <div class="container">
+       <div class="row text-center">
+
+            <a class="btn1" href="buyNowLeft.html" style="text-decoration:none;">Buy Now!</a>
             </div>
           </div>
+       </section>	
+		  </div>
+		  </div>
 
           <div class="col-xs-6">
             <div class="part2">
 					     <center>Cool White</center>
 					     <center><img id="image1" src="coolwhite3.jpg" style="width:600px; height:500px;padding-top:20px;"></center>
 				    </div>
+		  </div>
+				<br>
+				<section class="effect-btn">
+<div class="container">
+ <div class="row text-center">
+
+		<center>	<a class="btn1" href="buyNowRight.html" style="text-decoration:none;">Buy Now!</a></center>
 			   </div>
   	
           </div>
-	     
-
-
-       </div>
+		</section>
+	      </div>
+	      </div>
+	  </div>
+	  </div>
   	
 
       <div id="photos" class="section">
@@ -115,6 +148,37 @@
   		  <center>
   			 <h4>App Screenshots</h4>
   		  </center>
+	      <div class="container" style="max-width:100%;">
+			<div class="row">
+				<div class="col-xs-6">
+<ul style="list-style:none;">
+		<li>	<div id="toRight"><a data-toggle="tab" href="#img1"><span class="glyphicon glyphicon-menu-right">
+				Switch on/off your light anytime and from anywhere.</span></a></div></li>
+				<li><div id="toRight"><a data-toggle="tab" href="#img2"><span class="glyphicon glyphicon-menu-right">
+			  Change the mood of the room by trying different colors.</span></a></div></li>
+			<li><div id="toRight"><a data-toggle="tab" href="#img3"><span class="glyphicon glyphicon-menu-right">
+			  Easily create custom scenes for Reading, Night time, Movie time.</span></a></div>
+			<li><div id="toRight"><a data-toggle="tab" href="#img4"><span class="glyphicon glyphicon-menu-right">
+				  Schedule the timers for switching on/off the lights.</span></a></div>
+  	</div>
+		<div class="col-xs-6">
+<div class="tab-content">
+			<div id="img1" class="tab-pane fade in active">
+				<img src="mobile.jpg" style="width:500px;height:450px;">
+			</div>
+<div id="img2" class="tab-pane fade">
+	<img src="mobile1.jpg"  style="width:500px;height:450px;">
+</div>
+	<div id="img3" class="tab-pane fade">
+	<img src="mobile2.jpg"  style="width:500px;height:450px;">
+</div>
+<div id="img4" class="tab-pane fade">
+	<img src="mobile3.jpg"  style="width:500px;height:450px;">
+</div>
+		</div>
+	</div>
+</div>
+</div>
   	   </div>
         <div id="download" class="sectionDownload">
       <div class="container">
