@@ -26,6 +26,30 @@
 	color:white;
 }
 
+#toTop{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	border-radius: 50%;
+	cursor: pointer;
+	display: none;
+}
+
+#toRight{
+	margin-top: 60px;
+  display: block;
+}
+
+#toRight a{
+	color: white;
+	font-size: 18px;
+}
+
+
+.glyphicon:hover,.glyphicon:checked{
+	color:#ff9900;
+}
+
 .section{
 	height: 100vh;
 	background-color: black;
@@ -83,6 +107,56 @@
 #product:hover{
 	background-color: black;
 	color:white;
+}
+.effect-btn .btn1:hover{
+	-webkit-transition: all 0.5 ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+
+.effect-btn .btn1{
+	background-color: #ff9900;
+	  -webkit-border-radius: 10px;
+	  border-radius: 4px;
+	  border: none;
+	  color: #FFFFFF;
+	  cursor: pointer;
+	  display: inline-block;
+	  font-family: Arial;
+	  font-size: 20px;
+	  padding: 10px 20px;
+	  text-align: center;
+		margin-right: 600px;
+	  text-decoration: none;
+	-webkit-animation: glowing 1500ms infinite;
+		  -moz-animation: glowing 1500ms infinite;
+		  -o-animation: glowing 1500ms infinite;
+		  animation: glowing 1500ms infinite;
+}
+
+@-webkit-keyframes glowing {
+  0% { background-color: #ffcc80; -webkit-box-shadow: 0 0 3px #ffcc80; }
+  50% { background-color: #ff9900; -webkit-box-shadow: 0 0 40px #ff9900; }
+  100% { background-color: #ffcc80; -webkit-box-shadow: 0 0 3px #ffcc80; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #ffcc80; -moz-box-shadow: 0 0 3px #ffcc80; }
+  50% { background-color: #ff9900; -moz-box-shadow: 0 0 40px #ff9900; }
+  100% { background-color: #ffcc80; -moz-box-shadow: 0 0 3px #ffcc80; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #ffcc80; box-shadow: 0 0 3px #ffcc80; }
+  50% { background-color: #ff9900; box-shadow: 0 0 40px #ff9900; }
+  100% { background-color: #ffcc80; box-shadow: 0 0 3px #ffcc80; }
+}
+
+@keyframes glowing {
+  0% { background-color: #ffcc80; box-shadow: 0 0 3px #ffcc80; }
+  50% { background-color: #ff9900; box-shadow: 0 0 40px #ff9900; }
+  100% { background-color: #ffcc80; box-shadow: 0 0 3px #ffcc80; }
 }
 
 #downloadLogoGoogle{
