@@ -3,14 +3,15 @@
     <head>
 	   <meta charset="UTF-8">
        <meta name="viewport" content="width-device-width , initial-scale=1.0 ">
-        <title>Qwerty Works</title>
-	 <link rel="stylesheet" type="text/css" href="css\homePage.css">
-	 <link href="https://fonts.googleapis.com/css?family=Oswald|Song+Myung" rel="stylesheet">
-	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-   <link rel="shortcut icon" sizes="114x114" href="favicon.ico" type="image/x-icon">
-	  <script>
+       
+       <title>Qwerty Works</title>
+	   <link rel="stylesheet" type="text/css" href="css\homePage.css">
+	   <link href="https://fonts.googleapis.com/css?family=Oswald|Song+Myung" rel="stylesheet">
+	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+       <link rel="shortcut icon" sizes="114x114" href="favicon.ico" type="image/x-icon">
+       <script>
         $(document).ready(function(){
         $('body').append('<div id="toTop" class="btn btn-warning btn-lg btn3d"><span class="glyphicon glyphicon-chevron-up"></span></div>');
     	$(window).scroll(function () {
@@ -31,8 +32,11 @@
 
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
         <nav class="navbar navbar-default navbar-fixed-top">
+
             <div class="container-fluid">
+
                 <div class="navbar-header">
+
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -61,20 +65,43 @@
         <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
             <div id="home">
                 <div class="section1">
-     
-                    <center>
-                        <img src="images\Logo.png" width="200px" height="200px" id="logo">
-                    </center>
+                    <div class="container">
+                        <div class="row">
+                        <div class="col-sm-6">
+                            <center>
+                                <img src="images\Logo.png" width="200px" height="200px" id="logo">
+                            </center>
   
-                    <center>
-                        <h1 id="mainHeading">
-                            Qwerty Works
-                        </h1>
+                            <center>
+                                <h1 id="mainHeading">
+                                    Qwerty Works
+                                </h1>
        
-                        <h2 id="tagLine">
-                            <i>A smart light bulb supplier in India</i>
-                        </h2>
-                    </center>
+                                <h2 id="tagLine">
+                                    <i>A smart light bulb supplier in India</i>
+                                </h2>
+                                
+                                <br>
+                                <br>
+                        
+                                <a href="https://www.amazon.in"><img src="images\Amazon.png" width="200px" height="auto" hspace="10px"></a>
+                                <span>                   </span>
+                                <a href="https://www.flipkart.com"><img src="images\Flipkart.png" width="300px" height="80px" hspace="10px"></a>
+                       
+                            </center> 
+                        </div>
+
+                        <div class="col-sm-6 ">
+                            <div class="intro">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+                            </div>
+                            
+                        </div>
+                    </div>
+                    </div>
+                    
+
+                    
                 </div>
             </div>
         </div>
@@ -218,6 +245,8 @@
             </div>
         </div>
 
+
+
         <div id="features" class="section">
             <div class="container">
                 <div class="row">
@@ -232,8 +261,8 @@
 
                     <div class="col-sm-4">
                         <div class="icon-block">
-                            <center><img src="images\group.png"></center>
-                            <center><h3></h3></center>
+                            <center><img src="images\lightBulb.png"></center>
+                            <center><h3>One Bulb , Million Colours</h3></center>
                             <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
                         </div>
                     </div>
@@ -265,5 +294,20 @@
                 </div>
             </center>
         </div>
+
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        Made with &hearts; in India
+                    </div>
+                    <div class="col-sm-6" id="copyright">
+                        &copy; QwertyWorks 2018 . All Rights Reserved
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
     </body>
 </html>

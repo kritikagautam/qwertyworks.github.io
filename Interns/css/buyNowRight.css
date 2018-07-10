@@ -20,3 +20,38 @@ margin-top:20px;
 h1{
 	font-family: Lato;
 }
+
+#downloadLogoGoogle{
+	margin-top: 50px;
+}
+
+#downloadLogoApple{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.brightness {
+    background-color: black;
+
+}
+.brightness img:hover {
+    opacity: .7;
+}
+.brightness img{
+	max-width: 100%;
+	height: auto;	
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}
+
+#footer{
+
+	height:30px;
+	font-size: 20px;
+	background-color: #f4a142;
+	font-family: times new roman;
+}
+
+#copyright{
+	text-align: right;
+}

@@ -1,14 +1,25 @@
 #home{
 	background-color: black;
 	height: 100vh;
+	max-width: 100%;
+	height: auto;
 }
 
 body{
 	background-color: black;
+	font-family: Song Myung;
 }
 
 #logo{
-	margin-top: 200px;
+	margin-top: 150px;
+}
+
+.navbar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
 }
 
 
@@ -63,9 +74,6 @@ body{
 
 .sectionDownload{
 	height: 25vh;
-	margin-top: 100px;
-/*	background-color: #ff9000
-*/
 }
 
 .sectionFAQ{
@@ -88,6 +96,7 @@ body{
 	padding:10px;
 	position: fixed;
 	border-radius:2px;
+	position: fixed;
 }
 .fdback {
 	color:orange;
@@ -178,13 +187,12 @@ body{
 }
 
 #downloadLogoApple{
-	margin-top: 50px;
-	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-bottom: 50px;
 }
 
-.logoDownload{
-	margin-top: 100px;
-}
+
+
 
 
 body{
@@ -203,7 +211,6 @@ body{
 img{
 	max-width: 100%;
     height: auto;
-
 }
 
 .brightness img{
@@ -214,11 +221,16 @@ img{
 
 }
 
-footer{
-	margin-top: 100px;
-	height:40px;
+#footer{
+	margin-top: 80px;
+	height:30px;
 	font-size: 20px;
 	background-color: #f4a142;
+	font-family: times new roman;
+}
+
+#copyright{
+	text-align: right;
 }
 
 #photoSection{
@@ -233,11 +245,11 @@ footer{
 
 .intro{
 	color: white;
-	margin-top: 175px;
+	margin-top: 150px;
 	font-size: 20px;
 	border:2px solid white;
 	margin-right: 30px;
-	padding-right: 20px;
+	padding: 20px;
 	text-align: justify;
 	resize: both;
 	overflow: auto;
@@ -245,9 +257,19 @@ footer{
 
 #app{
 	padding-top: 100px;
+	max-width: 100%;
+	height: auto;
 }	
 
 
 #features{
 	padding-top: 100px;
+	max-width: 100%;
+	height: auto;
 }	
+
+#photos{
+	max-width: 100%;
+	height: 100vh;
+
+}
