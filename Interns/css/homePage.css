@@ -3,7 +3,12 @@
 	height: 100vh;
 	max-width: 100%;
 	height: auto;
+	background-image: url("images/light3.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	opacity: 0.5s;
 }
+
 
 body{
 	background-color: black;
