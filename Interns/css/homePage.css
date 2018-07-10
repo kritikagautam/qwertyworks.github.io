@@ -37,6 +37,11 @@ body{
         color:white;
 }
 
+#myCarousel{
+	margin-top: 50px;
+	max-width: 100%;
+}
+
 .navbar ul {
   padding: 0px;
   margin: 0px;
