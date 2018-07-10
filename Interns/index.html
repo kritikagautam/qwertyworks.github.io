@@ -26,6 +26,11 @@
         return false;
     });
 });
+	$(document).ready(function(){
+            $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
 </script>
 
 </head>
@@ -66,8 +71,8 @@
             <div id="home">
                 <div class="section1">
                     <div class="container">
-                        <div class="row">
-                        <div class="col-sm-6">
+             
+                        <!--<div class="col-sm-6">-->
                             <center>
                                 <img src="images\Logo.png" width="200px" height="200px" id="logo">
                             </center>
@@ -89,22 +94,27 @@
                                 <a href="https://www.flipkart.com"><img src="images\Flipkart.png" width="200px" height="80px" hspace="10px" style="padding-top: 15px; max-width: 100%;"></a>
                        
                             </center> 
-                        </div>
+                    
 
-                        <div class="col-sm-6 ">
+                       <!-- <div class="col-sm-6 ">
                             <div class="intro">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime suscipit nesciunt ipsa impedit tenetur, laborum facere dolorum sapiente. Dignissimos perferendis non amet quo dolore iste natus debitis, expedita in voluptas.
                                 <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident enim numquam officiis accusantium temporibus iusto quisquam veniam, repellendus iste dolorem, voluptas delectus ducimus. Pariatur officia nemo, sit cumque excepturi voluptatem.</div>
                                 <div>Earum, ullam, eum? Provident, nobis architecto facere tempora doloribus molestias laboriosam aliquam ex ipsum aliquid optio officia obcaecati amet, unde harum ipsam quae. Aliquam itaque inventore, quam. Amet, voluptate, quasi!</div>
                                 
-                            </div>
+                            </div>-->
                             
-                        </div>
-                    </div>
-                    </div>
-                    
+                      <div id="flip">
+		<!--<button class="button"><span>Know More About Us!</span></div>-->
+		<div class="btn btn-default btn-lg btn3d"><i style="color:black;">Know More About Us!</i><br><span class="glyphicon glyphicon-chevron-down"></span></div>
+<div id="panel"><span>Watts don’t measure brightness - they measure the amount of energy needed. Because LEDs are so energy efficient, watts have gone by the wayside.
+	 C-Sleep and C-Life provide all the brightness you need for your whole home. But if you’re still stuck on watts, our maximum brightness is close to a 60w incandescent.
+ </span></div>
+  </div>
 
-                    
+
+                    </div>
+                                     
                 </div>
             </div>
         </div>
