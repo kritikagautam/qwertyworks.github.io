@@ -3,16 +3,16 @@
 	height: 100vh;
 	max-width: 100%;
 	height: auto;
-<<<<<<< HEAD
+
 	/*background-image: url("images/light3.jpg");
 	background-size: auto;
 	background-repeat: no-repeat;*/
-=======
+
 	background-image: url("images/light3.jpg");
 	background-size:cover;
 	background-repeat: no-repeat;
 	opacity: 0.5s;
->>>>>>> ee098485b5b0131b764c13b5b2199629ddf97767
+
 }
 
 
