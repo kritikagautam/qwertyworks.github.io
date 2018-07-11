@@ -3,10 +3,18 @@
 	height: 100vh;
 	max-width: 100%;
 	height: auto;
+<<<<<<< HEAD
 	/*background-image: url("images/light3.jpg");
 	background-size: auto;
 	background-repeat: no-repeat;*/
+=======
+	background-image: url("images/light3.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	opacity: 0.5s;
+>>>>>>> ee098485b5b0131b764c13b5b2199629ddf97767
 }
+
 
 body{
 	background-color: black;
@@ -16,6 +24,28 @@ body{
 
 #logo{
 	margin-top: 150px;
+}
+
+#panel, #flip {
+
+    text-align: center;
+}
+
+#flip{
+	margin-top: 80px;
+}
+
+#panel {
+	height:100px;
+        padding: 10px;
+        display: none;
+        background-color: black;
+        color:white;
+}
+
+#myCarousel{
+	margin-top: 50px;
+	max-width: 100%;
 }
 
 .navbar ul {
@@ -361,24 +391,3 @@ img{
   bottom: -4px;
   right: 5px;
 }
-
-/*body
-{
-    padding-top: 20px;
-}*/
-#myCarousel .nav a small
-{
-    display: block;
-}
-#myCarousel .nav
-{
-    background: #eee;
-}
-.nav-justified > li > a
-{
-    border-radius: 0px;
-}
-.nav-pills>li[data-slide-to="0"].active a { background-color: #16a085; }
-.nav-pills>li[data-slide-to="1"].active a { background-color: #e67e22; }
-.nav-pills>li[data-slide-to="2"].active a { background-color: #2980b9; }
-.nav-pills>li[data-slide-to="3"].active a { background-color: #8e44ad; }
