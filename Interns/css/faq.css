@@ -1,6 +1,8 @@
 body {
   margin-top: 30px;
-  background-image: url(faqBackground.jpg);
+  background-image: url("images/faqBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .list-group.help-group {
