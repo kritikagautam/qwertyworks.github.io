@@ -43,6 +43,10 @@ body{
 	height: auto;
 }
 
+.navbar{
+	min-height: 80px;
+}
+
 .navbar ul {
   padding: 0px;
   margin: 0px;
@@ -104,6 +108,7 @@ body{
 	background-color: black;
 	color: white;
 	padding-top: 40px;
+	font-family: PT sans Narrow;
 }
 
 .sectionHome{
@@ -430,4 +435,10 @@ img{
     #paint {
       margin-top: 40px;
 
-    }
+}
+
+.card-title{
+	font-family: PT sans Narrow;
+	font-size: 20px;
+	text-align: center;
+}

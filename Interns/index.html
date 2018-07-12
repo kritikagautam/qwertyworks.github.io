@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-	   <meta charset="UTF-8">
+       <meta charset="UTF-8">
        <meta name="viewport" content="width-device-width , initial-scale=1.0 ">
        
        <title>Qwerty Works</title>
-	   <link rel="stylesheet" type="text/css" href="css\homePage.css">
-	   <link href="https://fonts.googleapis.com/css?family=Oswald|Song+Myung" rel="stylesheet">
-	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+       <link rel="stylesheet" type="text/css" href="css\homePage.css">
+       <link href="https://fonts.googleapis.com/css?family=Oswald|Song+Myung" rel="stylesheet">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
        <link rel="shortcut icon" sizes="114x114" href="favicon.ico" type="image/x-icon">
@@ -16,19 +16,19 @@
        <script>
         $(document).ready(function(){
         $('body').append('<div id="toTop" class="btn btn-warning btn-lg btn3d"><span class="glyphicon glyphicon-chevron-up"></span></div>');
-    	$(window).scroll(function () {
-			if ($(this).scrollTop() != 0) {
-				$('#toTop').fadeIn();
-			} else {
-				$('#toTop').fadeOut();
-			}
-		});
+        $(window).scroll(function () {
+            if ($(this).scrollTop() != 0) {
+                $('#toTop').fadeIn();
+            } else {
+                $('#toTop').fadeOut();
+            }
+        });
         $('#toTop').click(function(){
         $("html, body").animate({ scrollTop: 0 }, 600);
         return false;
     });
 });
-	$(document).ready(function(){
+    $(document).ready(function(){
             $("#flip").click(function(){
         $("#panel").slideToggle("slow");
     });
@@ -51,18 +51,18 @@
                 <span class="icon-bar"></span>
 
                 </button>
-                <a class="navbar-brand" href="#"><img src="images\Logo.png" width="25px" height="25px" ></a>
-                <a class="navbar-brand" href="#">Qwerty Works</a>
+                <a class="navbar-brand" href="#"><img src="images\Logo.png" width="32.5px" height="32.5px" style="margin-top: -5px;"  ></a>
+                <a class="navbar-brand" href="#" style="color: black; margin-left: -22.5px;">QwertyWorks</a>
                 </div>
 
                 <div>
                     <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav float-sm-right" style="float:right;">
-                    <li><a href="#product">Product</a></li>
-                    <li><a href="#app">App</a></li>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#download">Download App</a></li>
-				</ul>
+                    <li><a href="#product" style="color: black;font-family: PT sans Narrow;font-size: 25px;"></style>Product</a></li>
+                    <li><a href="#app" style="color: black;font-family: PT sans Narrow;font-size: 25px;">App</a></li>
+                    <li><a href="#features" style="color: black;font-family: PT sans Narrow;font-size: 25px;">Features</a></li>
+                    <li><a href="#download" style="color: black;font-family: PT sans Narrow;font-size: 25px;">Download App</a></li>
+                </ul>
                     </div>
                 </div>
             </div>
@@ -179,9 +179,9 @@
         </div>
 
         <div id="product" class="section">
-            <div class="container" style="max-width:100%;">		
+            <div class="container" style="max-width:100%;">     
                 <div class="row">
-				    <div class="col-sm-6">
+                    <div class="col-sm-6">
                         <div class="part1">
                             <br>
                                     <center>
@@ -195,8 +195,8 @@
                                     <center>
                                         <a href="buyNowLeft.html"><img src="images\buyNow.png" width="200px" height="150px"></a>
                                     </center>
-		      
-	                   </div>
+              
+                       </div>
                     </div>
 
                     <div class="col-sm-6">
@@ -218,27 +218,37 @@
         <div id="app" class="section"><br><br>
 
             <div id="steps" class="sectionSteps">
-                <center><h2>Make it easy!</h2></center>
-                    <div class="container" style="height:40vhpadding-top:50px;max-width: 1005">
-                        <div class="row">
-                    <div class="col-sm-4">
-                        <center><img src="images\install.png" style="width:100px; height:100px"><center><br>
-                        <b><p style="font-size:18px;"> Install the bulb in the bulb holder</p></b>
-                    </div>
+                <center>
+                    <h2>
+                        Make it easy!
+                    </h2>
+                </center>
+                <div class="container" style="height:auto;padding-top:50px;max-width: 100%">
+                    <div class="row">
+                        <div class="col-sm-2" style="margin-top: 300px;">
+                            <center><img src="images\install.png" style="width:100px; height:100px"><center><br>
+                            <b><p style="font-size:18px;"> Install the bulb in the bulb holder</p></b>
+                        </div>
               
-                    <div class="col-sm-4">
-                        <center><img src="images\download.png" style="width:100px; height:100px;"></center><br>
-                        <b><center><p style="font-size:18px;">Download the app from the play store</p></center></b>
-                    </div>
+                        <div class="col-sm-2" style="margin-top: 300px;">
+                            <center><img src="images\download.png" style="width:100px; height:100px;"></center><br>
+                            <b><center><p style="font-size:18px;">Download the app from the play store</p></center></b>
+                        </div>
               
-                    <div class="col-sm-4">
-                        <center><img src="images\phone.png" style="width:100px; height:100px;"></center><br>
-                        <b><center><p style="font-size:18px;"> Scan for the device and you are done!</p></center></b>
+                        <div class="col-sm-2" style="margin-top: 300px;">
+                            <center><img src="images\phone.png" style="width:100px; height:100px;"></center><br>
+                            <b><center><p style="font-size:18px;"> Scan for the device and you are done!</p></center></b>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <center>
+                                <img src="images\iphone.jpg" style="width: 1000px;height: 500px;">
+                            </center>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-            <br>
+           <!--  <br>
             <br>
             <center>
                 <h1>Meet Our App!</h1>
@@ -284,181 +294,99 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
 
 
         <div id="features" class="sectionFeatures">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="flip">
-                                <div class="card"> 
-                                <div class="face front"> 
-                                    <div class="inner"> 
-                                        <center>
-                                            <img src="images\feature1.png">
-                                        </center>  
-                                        
-                                        <center><h3>Recreate</h3></center>
-                                        <!-- <p class="light">With just one bulb you can be as creative as possible . A single bulb provides millions of colors all of which can be created using our mobile app</p> -->
-                                    </div>
-                                </div> 
-                                
-                                <div class="face back"> 
-                                    <div class="inner text-center"> 
-
-                                        <!-- <img src="images\feature1Back.jpg">
-                                        <br>
-                                        <br>
-                                        <br>
-                                        <br>
-                                        <br>  -->
-                                        <p>Now choose the color that your like or the one that suits your mood . The bulbs provides a wide range of colors which can be selected using the mobile application or using the home assistant</p>
-                                    </div>
-                                </div>
-                                </div>   
-                            </div>
-                    </div>
-  
-
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="flip">
-                            <div class="card"> 
-                                <div class="face front"> 
-                                    <div class="inner"> 
-
-                                        <img src="images\feature2.png" >
-                                        <center><h3>Voice Control</h3></center>
-                                       <!--  <p class="light">Alexa , dim the dining room light to 5% and its done OR Hey Google turn the bedroom main light to Blue . What's better it works with your phone . No need for Google Home</p> -->
-                                    </div>
-                                </div> 
-                                
-                                <div class="face back"> 
-                                    <div class="inner "> 
-                                        
-                                        <!-- <img src="images\feature2Back.jpg"> -->
-                                        <br>
-                                        <h3>Sample Commands</h3>
-                                        <ul>
-                                            <li>Alexa , Switch on the Master Bedroom light</li>
-                                            <li>Hey Google , dim the drawing room light to 25%</li>
-                                            <li>Ok Google , change the TV room light to red colour</li>
-                                        </ul>
-                                        
-                                    </div>
-                                </div>
-                            </div>   
-                            </div>
-                    </div>
-  
-
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="flip">
-                            <div class="card"> 
-                                <div class="face front"> 
-                                    <div class="inner">   
-                                        <img src="images\feature3.png">
-                                        <center><h3>No hub needed</h3></center>
-                                        <!-- <p class="light">Even we hate extra boxes which take up space and require to be setup . The bulb needs no hub . Just plug it in and get going . </p> -->
-                                    </div>
-                                </div> 
-          
-                                <div class="face back"> 
-                                    <div class="inner "> 
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur, iste aut quaerat quae adipisci sunt maiores unde voluptas rerum nostrum ad? Cupiditate veritatis, libero recusandae accusantium sit veniam neque.</p>
-                                        
-                                       
-                                    </div>
-                                </div>
-                            </div>   
-                            </div>
-                    </div>
-                </div>
+            <center>
+                <div class="container">
 
                 <div class="row">
-                    <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="col-sm-4">
+                    <div class="card" style="width: 200px;">
+                        <img class="card-img-top" src="images\feature1.png" alt="Card image cap">
+                        <div class="card-body">
+                            <center><h4 class="card-title">Millions of colours</h4></center>
+                            <p>Unleash your creativity! The bulb can emit millions of different colors  Choose the one that suits your mood the best</p>
                             
-                            <div class="flip">
-                            <div class="card"> 
-                                <div class="face front"> 
-                                    <div class="inner"> 
-                                        <br>
-                                        <br>
-                                        <br> 
-                                        <br>
-                                          
-                                        <img src="images\feature4Back(1).png" style="margin-right: -15px;">
-                                        <!-- <img src="images\feature4.png"> -->
-                                        <img src="images\feature4Back(2).png" style="margin-left: -15px;">
-                                        
-                                        <br>
-                                        <br>
-                                        <br>
-                                        <br>
-                                        <center><h3>Alexa and Google are our friends</h3></center>
-                                        <!-- <p class="light">The product is compatible with Google Assistant and Amazon Alexa . What's more your can control it with your phone and also with your smart speaker/home assistant. Why move when your voice is the King.</p> -->
-                                    </div>
-                                </div> 
-                                
-                                <div class="face back"> 
-                                    <div class="inner text-center"> 
-                                        
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur, iste aut quaerat quae adipisci sunt maiores unde voluptas rerum nostrum ad? Cupiditate veritatis, libero recusandae accusantium sit veniam neque.</p>
-                                         
-                                    </div>
-                                </div>
-                            </div>   
-                            </div>
+                            
+                        </div>
                     </div>
-  
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="flip">
-                            <div class="card"> 
-                                <div class="face front"> 
-                                    <div class="inner">   
-                                        <img src="images\feature5.png" width=>
-                                        <center><h3>Dimmable</h3></center>
-                                       <!--  <p class="light">Too bright or Too dim , too happy or too sad . Worry Not !! We've got your back . The bulb comes with adjustable brightness all of which is controlled by you . </p> -->
-                                    </div>
-                                </div> 
-                                
-                                <div class="face back"> 
-                                    <div class="inner "> 
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur, iste aut quaerat quae adipisci sunt maiores unde voluptas rerum nostrum ad? Cupiditate veritatis, libero recusandae accusantium sit veniam neque.</p>
-                                        
-                                        
-                                    </div>
-                                </div>
-                            </div>   
-                            </div>
                     </div>
-  
 
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="flip">
-                            <div class="card"> 
-                                <div class="face front"> 
-                                    <div class="inner">   
-                                        <img src="images\feature6.png">
-                                        <center><h3>Set alarm with light</h3></center>
-                                        <!-- <p class="light">We know you hate the same alarm ringing every morning . What if there was no sound but bright light (color of your choice) which woke you up every morning . The bulb comes with an Alarm feature which will add light to your mornings.</p> -->
-                                    </div>
-                                </div> 
-          
-                                <div class="face back"> 
-                                    <div class="inner "> 
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur, iste aut quaerat quae adipisci sunt maiores unde voluptas rerum nostrum ad? Cupiditate veritatis, libero recusandae accusantium sit veniam neque.</p>
-                                        
-                                       
-                                    </div>
-                                </div>
-                            </div>   
-                            </div>
+                    <div class="col-sm-4">
+                    <div class="card" style="width: 200px;">
+                        <img class="card-img-top" src="images\feature2.png" alt="Card image cap">
+                        <div class="card-body">
+                            <center><h4 class="card-title">Voice Control</h4></center>
+                            <p>Now control your lighting with your voice  The bulb connects with Google assistant on your phone , Google Home speaker and Amazon Alexa</p>
+                            
+                            
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                    <div class="card" style="width: 200px;">
+                        <img class="card-img-top" src="images\feature3.png" alt="Card image cap">
+                        <div class="card-body">
+                            <center><h4 class="card-title">No hub needed</h4></center>
+                            <p>Even we hate boxes which take up space  The bulb works without any hub . Just plug-in and use</p>
+                            
+                        </div>
+                    </div>
                     </div>
                 </div>
-                
+
+                <div class="row">
+                    <div class="col-sm-4">
+                    <div class="card" style="width: 200px;">
+                        <div class="row" style="padding-top: 50px;">
+                            <div class="col-sm-6">
+                                <img src="images\feature4(1).png">
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="images\feature4(2).png" >
+                            </div>
+                        </div>
+                        
+            
+                        
+                        
+                        <div class="card-body" style="padding-top: 62.5px;">
+                            <center><h4 class="card-title">Works with Alexa And Google Assistant</h4></center>
+                            <p>The bulb connects with google assistant (either on your phone or with google home assistant) and with Amazon Alexa</p>
+                            
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                    <div class="card" style="width: 200px;">
+                        <img class="card-img-top" src="images\feature5.png" alt="Card image cap">
+                        <div class="card-body">
+                            <center><h4 class="card-title">Dimmable</h4></center>
+                            <p>Too bright or Too dim . We've got your covered . The bulb comes with adjustable brightness which can be controlled using your phone.</p>
+                            
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                    <div class="card" style="width: 200px;">
+                        <img class="card-img-top" src="images\feature6.png" alt="Card image cap">
+                        <div class="card-body">
+                            <center><h4 class="card-title">Sets Alarm with Light</h4></center>
+                            <p>We know that you hate the same alarm going off every morning . Now wake up every morning too bright light and not to the same old tune.</p>
+                            
+                        </div>
+                    </div>
+                    </div>
+                </div> 
             </div>
+            </center>
+            
         </div>
 
         <div id="download" class="sectionDownload">
