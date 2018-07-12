@@ -437,6 +437,12 @@ img{
 
 }
 
+@media (max-width: 600px) {
+     
+      margin-top: 40px;
+
+}
+
 .card-title{
 	font-family: PT sans Narrow;
 	font-size: 20px;
