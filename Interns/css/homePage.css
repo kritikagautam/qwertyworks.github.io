@@ -8,7 +8,7 @@
 
 
 body{
-	
+
 	background-color: black;
 	font-family:PT Sans Narrow;
 	overflow-x: hidden;
@@ -267,14 +267,27 @@ img{
 
 .brightness img{
 	max-width: 100%;
-	height: auto;	
+	height: auto;
 	background-size: contain;
 	background-repeat: no-repeat;
 
 }
 
+@media (max-width:600px){
+	#steps .container .row .col-sm-6 img{
+		display: none;
+	}
+}
+
+@media (max-width:600px){
+	#steps .container .row .w-100 .buy{
+		margin-top:250px;
+		margin-left:525px;
+	}
+}
+
 #footer{
-	margin-top: 80px;
+
 	height:30px;
 	font-size: 20px;
 	background-color: #f4a142;
@@ -318,7 +331,7 @@ img{
 	padding-bottom: 30px;
 	margin: auto;
 
-}	
+}
 
 #photos{
 	max-width: 100%;
@@ -329,7 +342,7 @@ img{
 }
 
 .flip {
-  -webkit-perspective: 800;   
+  -webkit-perspective: 800;
           perspective: 800;
         position: relative;
         text-align: center;
@@ -347,7 +360,7 @@ img{
     transition: 0.5s;
     background-color: #000;
 
-   
+
 }
 .flip .card .face {
   -webkit-backface-visibility: hidden ;
@@ -438,7 +451,7 @@ img{
 }
 
 @media (max-width: 600px) {
-     
+
       margin-top: 40px;
 
 }
