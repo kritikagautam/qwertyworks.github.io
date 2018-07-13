@@ -37,7 +37,7 @@
 
 </head>
 
-    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <body data-spy="" data-target=".navbar" data-offset="50">
         <nav class="navbar navbar-default navbar-fixed-top">
 
             <div class="container-fluid">
@@ -61,14 +61,14 @@
                     <li><a href="#product" style="color: black;font-family: PT sans Narrow;font-size: 25px;"></style>Product</a></li>
                     <li><a href="#app" style="color: black;font-family: PT sans Narrow;font-size: 25px;">App</a></li>
                     <li><a href="#features" style="color: black;font-family: PT sans Narrow;font-size: 25px;">Features</a></li>
-                    <!--<li><a href="#download" style="color: black;font-family: PT sans Narrow;font-size: 25px;">Download App</a></li>-->
+                    <li><a href="#why" style="color: black;font-family: PT sans Narrow;font-size: 25px;">Why SmartBulbs</a></li>
                 </ul>
                     </div>
                 </div>
             </div>
         </nav>
 
-        <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+        <div data-spy="" data-target="#navbar-example2" data-offset="0">
             <!-- <div id="home">
                 <div class="section1">
                     <div class="container">
@@ -185,11 +185,11 @@
                         <div class="part1">
                             <br>
                                     <center>
-                                        Warm White
+                                        <h2 style="margin-top: -10px;">Warm White</h2>
                                     </center>
 
                                     <center>
-                                        <img id="image" src="images\warmwhite1.jpg" style="width:600px; height:500px;padding-top:20px;">
+                                        <img id="image" src="images\productfront.png" style="width:300px; height:500px;padding-top:20px;">
                                     </center>
 
                                     <center>
@@ -202,8 +202,8 @@
                     <div class="col-sm-6">
                         <div class="part2">
                             <br>
-                            <center>Cool White</center>
-                            <center><img id="image1" src="images\coolwhite3.jpg" style="width:600px; height:500px;padding-top:20px;"></center>
+                            <center><h2 style="margin-top: -10px;">Cool White</h2></center>
+                            <center><img id="image1" src="images\productfront.png" style="width:300px; height:500px;padding-top:20px;"></center>
                             <center>
                                 <a href="buyNowRight.html"><img src="images\buyNow.png" width="200px" height="150px"></a>
                             </center>
@@ -363,23 +363,77 @@
 
         </div>
 
-      <!--  <div id="download" class="sectionDownload">
+        <div id="why" style="padding-top: 60px;background-color: black;height: auto;max-width: 100%;">
             <center>
-                <div class="brightness">
-                    <a href="https://www.google.com">
-                        <img src="images\GooglePlay.png" id="downloadLogoGoogle" class="downloadLogo" width="200px">
-                    </a>
-                </div>
-
-                <div class="brightness">
-                    <a href="https://www.apple.com">
-                        <img src="images\AppStore.png" id="downloadLogoApple" class="downloadLogo" width="200px">
-                    </a>
-                </div>
+                <iframe width="800px" style="max-width: 100%;margin-bottom: 50px;" height="400px" src="https://www.youtube.com/embed/xJ0kFf_OXww"></iframe>
             </center>
-        </div>-->
 
-        <div id="footer">
+            <div class='row' style="padding-bottom: 20px;">
+                <div class='col-md-offset-2 col-md-8'>
+                    <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#quote-carousel" data-slide-to="1"></li>
+                            <li data-target="#quote-carousel" data-slide-to="2"></li>
+                        </ol>
+        
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-3 text-center">
+                                            <img class="img-circle" src="images\billGates.png" style="width: 100px;height:100px;">
+                                        </div>
+                
+                                        <div class="col-sm-9">
+                                            <p style="color: white;font-family: PT sans Narrow;font-size: 20px;">The first rule of any technology used in a business is that AUTOMATION applied to an efficient operation will magnify the efficiency.</p>
+                                            <small style="color: white; font-family: PT sans Narrow;">Bill Gates</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+          
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-3 text-center">
+                                            <img class="img-circle" src="images\businessInsider.jpg" style="width: 100px;height:100px;">
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <p style="color: white;font-family: PT sans Narrow;font-size: 20px;">India will soon be a leader in IOT</p>
+                                            <small style="color: white; font-family: PT sans Narrow;">Business Insider</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-3 text-center">
+                                            <img class="img-circle" src="images\elonMusk.png" style="width: 100px;height:100px;">
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <p style="color: white;font-family: PT sans Narrow;font-size: 20px;">I think it is possible for ordinary people to choose to be extraordinary</p>
+                                            <small style="color: white; font-family: PT sans Narrow;">Elon Musk(on Automation)</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+          
+                            
+                        </div>
+        
+                        <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+                    </div>                          
+                </div>
+            </div>
+        </div>
+
+      
+
+        <div id="footer" style="">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
