@@ -40,6 +40,7 @@ body{
 
 .navbar{
 	min-height: 80px;
+	max-width: 100%;
 }
 
 .navbar ul {
@@ -240,17 +241,19 @@ body{
 }
 
 #downloadLogoGoogle{
-	margin-top: 50px;
-	margin-left: 140px;
-	
+	width: 200px;
 }
 
 #downloadLogoApple{
-	margin-top: 100px;
-	margin-bottom: 50px;
-	margin-left: 30px;
-	margin-right: -50px;
+	width: 150px;
 	
+}
+
+#downloadButtonSection{
+	height: auto;
+	max-width: 100%;
+	background-color: black;
+/*	margin-top: 40px;*/
 }
 
 
@@ -278,6 +281,21 @@ img{
 @media (max-width:600px){
 	#steps .container .row .col-sm-6 img{
 		display: none;
+	}
+}
+
+@media (max-width:900px){
+	#steps .container .row .col-sm-6 img{
+		display: none;
+	}
+}
+
+
+@media (max-width: 786px) {
+	#home{
+		padding-top: 200px;
+		padding-bottom: 150px;
+
 	}
 }
 
