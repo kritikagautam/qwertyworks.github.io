@@ -3,12 +3,25 @@
 	height: 100vh;
 	max-width: 100%;
 	height: auto;
+	padding-top: 0px;
 }
 
 body{
 	background-color: black;
 	font-family:PT Sans Narrow;
 	overflow-x: hidden;
+	scroll-behavior: smooth;
+	overflow-y: scroll;
+
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 #logo{
@@ -33,14 +46,14 @@ body{
 }
 
 #myCarousel{
-	margin-top: 50px;
+	margin-top: 55px;
 	max-width: 100%;
 	height: auto;
 }
 
 .navbar{
 	min-height: 80px;
-	max-width: 100%;
+	
 }
 
 .navbar ul {
@@ -103,12 +116,11 @@ body{
 	height: 100vh;
 	background-color: black;
 	color: white;
-	padding-top: 40px;
+	padding-top: 50px;
 	font-family: PT sans Narrow;
 }
 
 .sectionHome{
-	/*height: 100vh;*/
 	background-color: black;
 	color: white;
 
@@ -119,8 +131,6 @@ body{
 	height: 100vh;
 	background-color: black;
 	color: white;
-/*	padding-top: 20px;
-*/	/*padding-left:75px;*/
 
 }
 
@@ -278,15 +288,19 @@ img{
 
 }
 
-@media (max-width:600px){
-	#steps .container .row .col-sm-6 img{
+@media (max-width:768px){
+	#steps .container-fluid .row .col-sm-6 img{
 		display: none;
 	}
 }
 
 @media (max-width:900px){
-	#steps .container .row .col-sm-6 img{
+	#steps .container-fluid .row .col-sm-6 img{
 		display: none;
+	}
+	#steps .container .row {
+	
+		padding-bottom: 50px;
 	}
 }
 
@@ -299,7 +313,7 @@ img{
 	}
 }
 
-@media (max-width:600px){
+@media (max-width:768px){
 	#steps .container .row .w-100 .buy{
 		margin-top:250px;
 		margin-left:325px;
@@ -436,6 +450,7 @@ img{
   padding: 10px 20px;
   border-radius: 4px;
   border-color: #46b8da;
+  margin-right: 20px;
 }
 
 #faqButton {
@@ -464,13 +479,13 @@ img{
 	padding-top: 40px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     #paint {
       margin-top: 40px;
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 
       margin-top: 40px;
 
@@ -579,14 +594,14 @@ img{
     }
 }
 
-@media (max-width:600px){
-	#steps .container .row{
-		margin-right:100px;
+@media (max-width:768px){
+	#steps .container-fluid .row{
+		margin-right:100px; 
 	}
 }
 
-@media (max-width:600px){
+@media (max-width:768px){
 	#steps .container .row .w-100{
-		margin-right:-35px;
+		/*margin-right:-35px;*/
 	}
 }
