@@ -161,6 +161,7 @@ body{
 
 #image:hover{
 	content: url("images/leftback.png");
+	
 	width: 400px;
 }
 
