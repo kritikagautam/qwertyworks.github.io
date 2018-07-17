@@ -21,14 +21,14 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 #logo{
 	margin-top: 150px;
 }
 
-#panel, #flip {
+/*#panel, #flip {
 
     text-align: center;
 }
@@ -43,7 +43,7 @@ html,body
         display: none;
         background-color: black;
         color:white;
-}
+}*/
 
 #myCarousel{
 	margin-top: 55px;
@@ -53,7 +53,7 @@ html,body
 
 .navbar{
 	min-height: 80px;
-	
+
 }
 
 .navbar ul {
@@ -82,8 +82,6 @@ html,body
 
  }
 
-
-
 #line{
 	color:white;
 }
@@ -94,7 +92,6 @@ html,body
 	left: 10px;
 	border-radius: 50%;
 	cursor: pointer;
-	display: none;
 }
 
 #toRight{
@@ -129,7 +126,7 @@ html,body
 
 .sectionFeatures{
 	height: 100vh;
-	background-color: black;
+	background-color: #515151;
 	color: white;
 
 }
@@ -167,7 +164,7 @@ html,body
 
 #image:hover{
 	content: url("images/leftback.png");
-	
+
 	width: 400px;
 }
 
@@ -186,69 +183,16 @@ html,body
 }
 
 #product{
-	background-color: black;
-	color:white;
+	background-color: #ccc;
+	color:black;
 	font-size: 18px;
 	padding-top: 60px;
 	max-width: 100%;
 	height: auto;
 }
 
-#product:hover{
-	background-color: black;
-	color:white;
-}
-.effect-btn .btn1:hover{
-	-webkit-transition: all 0.5 ease-out;
-	-moz-transition: all 0.5s ease-out;
-	-o-transition: all 0.5s ease-out;
-	transition: all 0.5s ease-out;
-}
 
-.effect-btn .btn1{
-	background-color: #ff9900;
-	  -webkit-border-radius: 10px;
-	  border-radius: 4px;
-	  border: none;
-	  color: #FFFFFF;
-	  cursor: pointer;
-	 display: inline-block;
-	  font-size: 20px;
-	  padding: 10px 20px;
-	  text-align: center;
-		margin-right: 600px;
 
-	  text-decoration: none;
-
-	-webkit-animation: glowing 1500ms infinite;
-		  -moz-animation: glowing 1500ms infinite;
-		  -o-animation: glowing 1500ms infinite;
-		  animation: glowing 1500ms infinite;
-}
-
-@-webkit-keyframes glowing {
-  0% { background-color: #ffcc80; -webkit-box-shadow: 0 0 3px #ffcc80; }
-  50% { background-color: #ff9900; -webkit-box-shadow: 0 0 40px #ff9900; }
-  100% { background-color: #ffcc80; -webkit-box-shadow: 0 0 3px #ffcc80; }
-}
-
-@-moz-keyframes glowing {
-  0% { background-color: #ffcc80; -moz-box-shadow: 0 0 3px #ffcc80; }
-  50% { background-color: #ff9900; -moz-box-shadow: 0 0 40px #ff9900; }
-  100% { background-color: #ffcc80; -moz-box-shadow: 0 0 3px #ffcc80; }
-}
-
-@-o-keyframes glowing {
-  0% { background-color: #ffcc80; box-shadow: 0 0 3px #ffcc80; }
-  50% { background-color: #ff9900; box-shadow: 0 0 40px #ff9900; }
-  100% { background-color: #ffcc80; box-shadow: 0 0 3px #ffcc80; }
-}
-
-@keyframes glowing {
-  0% { background-color: #ffcc80; box-shadow: 0 0 3px #ffcc80; }
-  50% { background-color: #ff9900; box-shadow: 0 0 40px #ff9900; }
-  100% { background-color: #ffcc80; box-shadow: 0 0 3px #ffcc80; }
-}
 
 #downloadLogoGoogle{
 	width: 200px;
@@ -256,7 +200,7 @@ html,body
 
 #downloadLogoApple{
 	width: 150px;
-	
+
 }
 
 #downloadButtonSection{
@@ -299,7 +243,7 @@ img{
 		display: none;
 	}
 	#steps .container .row {
-	
+
 		padding-bottom: 50px;
 	}
 }
@@ -498,7 +442,7 @@ img{
 }
 
 /* carousel */
-#quote-carousel 
+#quote-carousel
 {
   padding: 0 10px 30px 10px;
   margin-top: 30px;
@@ -514,17 +458,17 @@ img{
   margin-top: 30px;
 }
 /* Previous button  */
-#quote-carousel .carousel-control.left 
+#quote-carousel .carousel-control.left
 {
   left: -12px;
 }
 /* Next button  */
-#quote-carousel .carousel-control.right 
+#quote-carousel .carousel-control.right
 {
   right: -12px !important;
 }
 /* Changes the position of the indicators */
-#quote-carousel .carousel-indicators 
+#quote-carousel .carousel-indicators
 {
   right: 50%;
   top: auto;
@@ -532,11 +476,11 @@ img{
   margin-right: -19px;
 }
 /* Changes the color of the indicators */
-#quote-carousel .carousel-indicators li 
+#quote-carousel .carousel-indicators li
 {
   background: #c0c0c0;
 }
-#quote-carousel .carousel-indicators .active 
+#quote-carousel .carousel-indicators .active
 {
   background: #333333;
 }
@@ -564,22 +508,22 @@ img{
 }
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-    #quote-carousel 
+@media (min-width: 768px) {
+    #quote-carousel
     {
       margin-bottom: 0;
       padding: 0 40px 30px 40px;
     }
-    
+
 }
 
 /* Small devices (tablets, up to 768px) */
-@media (max-width: 768px) { 
-    
+@media (max-width: 768px) {
+
     /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
-    
+
     #quote-carousel .carousel-indicators {
-        bottom: -20px !important;  
+        bottom: -20px !important;
     }
     #quote-carousel .carousel-indicators li {
         display: inline-block;
@@ -596,7 +540,7 @@ img{
 
 @media (max-width:768px){
 	#steps .container-fluid .row{
-		margin-right:100px; 
+		margin-right:100px;
 	}
 }
 
