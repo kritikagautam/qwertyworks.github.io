@@ -1,5 +1,3 @@
-
-
 $(document).ready( function() {
     $('#myCarousel').carousel({
     	interval:   4000
@@ -22,33 +20,4 @@ $(document).ready( function() {
 		}
 		clickEvent = false;
 	});
-});
-
-// When the DOM is ready, run this function
-$(document).ready(function() {
-  //Set the carousel options
-  $('#quote-carousel').carousel({
-    pause: true,
-    interval: 4000,
-  });
-});
-
-// Scroll to specific values
-// scrollTo is the same
-window.scroll({
-  top: 2500,
-  left: 0,
-  behavior: 'smooth'
-});
-
-// Scroll certain amounts from current position
-window.scrollBy({
-  top: 100, // could be negative value
-  left: 0,
-  behavior: 'smooth'
-});
-
-// Scroll to a certain element
-document.querySelector('.hello').scrollIntoView({
-  behavior: 'smooth'
 });

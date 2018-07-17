@@ -1,18 +1,9 @@
-#home{
-	background-color: black;
-	height: 100vh;
-	max-width: 100%;
-	height: auto;
-	padding-top: 0px;
-}
-
 body{
 	background-color: black;
 	font-family:PT Sans Narrow;
 	overflow-x: hidden;
 	scroll-behavior: smooth;
 	overflow-y: scroll;
-
 }
 
 html,body
@@ -23,27 +14,17 @@ html,body
     padding: 0px;
     overflow-x: hidden;
 }
+#home{
+	background-color: black;
+	height: 100vh;
+	max-width: 100%;
+	height: auto;
+	padding-top: 0px;
+}
 
 #logo{
 	margin-top: 150px;
 }
-
-/*#panel, #flip {
-
-    text-align: center;
-}
-
-#flip{
-	margin-top: 80px;
-}
-
-#panel {
-	height:100px;
-        padding: 10px;
-        display: none;
-        background-color: black;
-        color:white;
-}*/
 
 #myCarousel{
 	margin-top: 55px;
@@ -94,15 +75,6 @@ html,body
 	cursor: pointer;
 }
 
-#toRight{
-	margin-top: 60px;
-  display: block;
-}
-
-#toRight a{
-	color: white;
-	font-size: 18px;
-}
 
 
 .glyphicon:hover,.glyphicon:checked{
@@ -120,26 +92,12 @@ html,body
 .sectionHome{
 	background-color: black;
 	color: white;
-
-
 }
 
 .sectionFeatures{
 	height: 100vh;
-	background-color: #515151;
+	background-color: #5D5C61;
 	color: white;
-
-}
-
-
-.sectionDownload{
-	height: 25vh;
-}
-
-.sectionFAQ{
-	height: 50vh;
-	background-color: red;
-	padding-top: 40px;
 }
 
 .sectionFooter{
@@ -147,74 +105,59 @@ html,body
 	background-color: orange;
 }
 
-.fdback{
-	top: 550px;
-	background-color:white;
-	color: white;
-	width:40;
-	height:60;
-	padding:10px;
-	position: fixed;
-	border-radius:2px;
-	position: fixed;
-}
-.fdback {
-	color:orange;
+
+#productLeft{
+	max-width: 100%;
+	height: auto;
 }
 
-#image:hover{
+#productLeft:hover{
 	content: url("images/leftback.png");
-
 	width: 400px;
 }
 
-#image{
+#productRight{
 	max-width: 100%;
 	height: auto;
 }
 
-#image1{
-	max-width: 100%;
-	height: auto;
-}
-
-#image1:hover{
+#productRight:hover{
 	content:url("images/rightback.png");
 }
 
 #product{
-	background-color: #ccc;
-	color:black;
+	background-color: #4b6360;
+	color:white;
 	font-size: 18px;
 	padding-top: 60px;
 	max-width: 100%;
 	height: auto;
 }
 
-
-
-
 #downloadLogoGoogle{
 	width: 200px;
+	margin-top: 10px;
 }
 
 #downloadLogoApple{
-	width: 150px;
-
+	width: 170px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 #downloadButtonSection{
 	height: auto;
 	max-width: 100%;
-	background-color: black;
-/*	margin-top: 40px;*/
+	background-color: #abb6c9;
+	color: black;
+	margin-top: 40px;
 }
-
 
 .brightness {
-    background-color: black;
+    background-color: #abb6c9;
 
 }
+
 .brightness img:hover {
     opacity: .7;
 }
@@ -229,39 +172,6 @@ img{
 	height: auto;
 	background-size: contain;
 	background-repeat: no-repeat;
-
-}
-
-@media (max-width:768px){
-	#steps .container-fluid .row .col-sm-6 img{
-		display: none;
-	}
-}
-
-@media (max-width:900px){
-	#steps .container-fluid .row .col-sm-6 img{
-		display: none;
-	}
-	#steps .container .row {
-
-		padding-bottom: 50px;
-	}
-}
-
-
-@media (max-width: 786px) {
-	#home{
-		padding-top: 200px;
-		padding-bottom: 150px;
-
-	}
-}
-
-@media (max-width:768px){
-	#steps .container .row .w-100 .buy{
-		margin-top:250px;
-		margin-left:325px;
-	}
 }
 
 #footer{
@@ -269,38 +179,11 @@ img{
 	height:30px;
 	font-size: 20px;
 	background-color: #f4a142;
-
 }
 
 #copyright{
 	text-align: right;
 }
-
-#photoSection{
-	margin-left: 40px;
-	margin-right: 40px;
-	max-height: 100%;
-	max-width: 100%;
-	height: auto;
-
-}
-
-
-
-.intro{
-	color: white;
-	margin-top: 150px;
-	font-size: 20px;
-	border:2px solid white;
-	margin-right: 0px;
-	padding: 20px;
-	text-align: justify;
-	resize: both;
-	overflow: auto;
-}
-
-
-
 
 #features{
 	padding-top: 25px;
@@ -308,79 +191,6 @@ img{
 	height: auto;
 	padding-bottom: 30px;
 	margin: auto;
-
-}
-
-#photos{
-	max-width: 100%;
-	height: auto;
-	padding-top: 100px;
-	margin:auto;
-
-}
-
-.flip {
-  -webkit-perspective: 800;
-          perspective: 800;
-        position: relative;
-        text-align: center;
-}
-.flip .card.flipped {
-  -webkit-transform: rotatey(-180deg);
-          transform: rotatey(-180deg);
-}
-.flip .card {
-    width: auto;
-    height: 300px;
-    -webkit-transform-style: preserve-3d;
-    -webkit-transition: 0.5s;
-    transform-style: preserve-3d;
-    transition: 0.5s;
-    background-color: #000;
-
-
-}
-.flip .card .face {
-  -webkit-backface-visibility: hidden ;
-    backface-visibility: hidden ;
-   z-index: 2;
-}
-.flip .card .front {
-   position: absolute;
-   width: auto;
-   z-index: 1;
-}
-.flip .card .front img{
-  width: auto;
-  height: 100%;
-  margin-left: 50px;
-
-}
-.flip .card .img {
-   position: relative;
-   width: auto;
-   height: 178px;
-   z-index: 1;
-   border: 2px solid #000;
-}
-.flip .card .back {
-  padding-top: 10%;
-  -webkit-transform: rotatey(-180deg);
-          transform: rotatey(-180deg);
-  position: absolute;
-}
-.inner{
-  margin:0px;
-  width: auto;
-}
-
-
-.cardFeatures{
-	text-align: center;
-}
-
-.flip .card h3{
-	margin-left: 50px;
 }
 
 .buyNowButton{
@@ -419,21 +229,7 @@ img{
 	color:#ff9900;
 }
 
-.app1{
-	padding-top: 40px;
-}
 
-@media (max-width: 768px) {
-    #paint {
-      margin-top: 40px;
-
-}
-
-@media (max-width: 768px) {
-
-      margin-top: 40px;
-
-}
 
 .card-title{
 	font-family: PT sans Narrow;
@@ -441,102 +237,40 @@ img{
 	text-align: center;
 }
 
-/* carousel */
-#quote-carousel
-{
-  padding: 0 10px 30px 10px;
-  margin-top: 30px;
+
+@media (max-width:765px){
+	#steps .container-fluid .row .col-sm-6 img{
+		display: none;
+	}
 }
 
-/* Control buttons  */
-#quote-carousel .carousel-control
-{
-  background: none;
-  color: #222;
-  font-size: 2.3em;
-  text-shadow: none;
-  margin-top: 30px;
-}
-/* Previous button  */
-#quote-carousel .carousel-control.left
-{
-  left: -12px;
-}
-/* Next button  */
-#quote-carousel .carousel-control.right
-{
-  right: -12px !important;
-}
-/* Changes the position of the indicators */
-#quote-carousel .carousel-indicators
-{
-  right: 50%;
-  top: auto;
-  bottom: 0px;
-  margin-right: -19px;
-}
-/* Changes the color of the indicators */
-#quote-carousel .carousel-indicators li
-{
-  background: #c0c0c0;
-}
-#quote-carousel .carousel-indicators .active
-{
-  background: #333333;
-}
-#quote-carousel img
-{
-  width: 250px;
-  height: 100px
-}
-/* End carousel */
+@media (max-width:765px){
+	#steps .container-fluid .row .col-sm-6 img{
+		display: none;
+	}
+	#steps .container .row {
 
-.item blockquote {
- /*   border-left: none; */
-    margin: 0;
+		padding-bottom: 50px;
+	}
 }
 
-.item blockquote img {
-    margin-bottom: 10px;
+
+@media (max-width: 765px) {
+	#home{
+		padding-top: 200px;
+		padding-bottom: 250px;
+
+	}
 }
 
-.item blockquote p:before {
-    content: "\f10d";
-    font-family: 'Fontawesome';
-    float: left;
-    margin-right: 10px;
+@media (max-width:765px){
+	#steps .container .row .w-100 .buy{
+		margin-top:250px;
+		margin-left:325px;
+	}
 }
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    #quote-carousel
-    {
-      margin-bottom: 0;
-      padding: 0 40px 30px 40px;
-    }
 
-}
-
-/* Small devices (tablets, up to 768px) */
-@media (max-width: 768px) {
-
-    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
-
-    #quote-carousel .carousel-indicators {
-        bottom: -20px !important;
-    }
-    #quote-carousel .carousel-indicators li {
-        display: inline-block;
-        margin: 0px 0px;
-        width: 15px;
-        height: 15px;
-    }
-    #quote-carousel .carousel-indicators li.active {
-        margin: 0px 5px;
-        width: 20px;
-        height: 20px;
-    }
-}
 
 @media (max-width:768px){
 	#steps .container-fluid .row{
@@ -544,8 +278,4 @@ img{
 	}
 }
 
-@media (max-width:768px){
-	#steps .container .row .w-100{
-		/*margin-right:-35px;*/
-	}
-}
+
