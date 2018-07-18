@@ -3,7 +3,7 @@ html,body{width:100%;height:100%;margin:0px;padding:0px;overflow-x:hidden;}
 #home{background-color:black;height:100vh;max-width:100%;height:auto;padding-top:0px;}
 #logo{margin-top:150px;}
 #myCarousel{margin-top:55px;max-width:100%;height:auto;}
-.navbar{min-height:80px;}
+.navbar{min-height:80px; background-color: transparent;background: transparent;}
 .navbar ul{padding:0px;margin:0px;text-align:center;display:inline-block;vertical-align:top;}
 .navbar-brand{font-size:30px !important;color:black;font-family:PT sans Narrow;}
 #mainHeading{color:white;font-size:60px;}
@@ -16,11 +16,11 @@ html,body{width:100%;height:100%;margin:0px;padding:0px;overflow-x:hidden;}
 .sectionFeatures{height:100vh;background-color:#4a77bf;color:white;}
 .sectionFooter{height:600px;background-color:orange;}
 #productLeft{max-width:100%;height:auto;}
-#productLeft:hover{content:url("images/leftback.png");width:400px;}
+#productLeft:hover{content:url("images/leftback.png");}
 #productRight{max-width:100%;height:auto;}
 #productRight:hover{content:url("images/rightback.png");}
 #product{background-color:#4b6360;color:white;font-size:18px;padding-top:60px;max-width:100%;height:auto;}
-#downloadLogoGoogle{width:200px;margin-top:10px;}
+#downloadLogoGoogle{width:200px;margin-top:10px;margin-left: -10px;}
 #downloadLogoApple{width:170px;margin-bottom:10px;margin-top:10px;}
 #downloadButtonSection{height:auto;max-width:100%;background-color:#abb6c9;color:black;margin-top:40px;}
 .brightness{background-color:#abb6c9;}
@@ -44,18 +44,25 @@ img{max-width:100%;height:auto;}
 }
 @media (max-width:765px){#home{padding-top:200px;padding-bottom:250px;}
 }
-@media (max-width:765px){#steps .container .row .w-100 .buy{margin-top:250px;margin-left:325px;}
+@media (max-width:765px){#steps .container .row .w-100 .buy{margin-top:250px;margin-left:200px;}
 }
-@media (max-width:767px){#steps .container-fluid .row{margin-right:100px;}
+@media (max-width:765px){#steps .container-fluid .row{margin-right:100px;}
 }
-.quote {color: rgba(0,0,0,0.1); text-align: center; }
+.quote {color: rgba(0,0,0,0.1); text-align: center margin-right:30px; }
 #fade-quote-carousel.carousel {padding-bottom: 60px; }
 #fade-quote-carousel.carousel .carousel-inner .item {opacity: 0; -webkit-transition-property: opacity; -ms-transition-property: opacity; transition-property: opacity; } 
 #fade-quote-carousel.carousel .carousel-inner .active {opacity: 1; -webkit-transition-property: opacity; -ms-transition-property: opacity; transition-property: opacity; }
-#fade-quote-carousel.carousel .carousel-indicators {bottom: 10px; } 
+#fade-quote-carousel.carousel .carousel-indicators {bottom: 10px;  } 
 #fade-quote-carousel.carousel .carousel-indicators > li {background-color: #e84a64; border: none; } 
 #fade-quote-carousel blockquote {text-align: center; border: none; }
 #fade-quote-carousel .profile-circle {width: 100px; height: 100px; margin: 0 auto; border-radius: 100px; }
 .dropdown-toggle{color: black;}
 .fa {padding: 20px; font-size: 30px; width: 50px; text-align: center; text-decoration: none; }
 @media(min-width: 766px){#menuOnCollapse ul{float: right; } }
+.carousel blockquote{color: white;}
+@media(max-width: 320px){
+	#steps .container-fluid .row .col-sm-2 p{
+		margin-left: -20px;
+		width: 100px;
+	}
+}
