@@ -58,8 +58,4 @@ img{max-width:100%;height:auto;}
 #fade-quote-carousel .profile-circle {width: 100px; height: 100px; margin: 0 auto; border-radius: 100px; }
 .dropdown-toggle{color: black;}
 .fa {padding: 20px; font-size: 30px; width: 50px; text-align: center; text-decoration: none; }
-@media(min-width: 766px){
-	#menuOnCollapse ul{
-		float: right;
-	}
-}
+@media(min-width: 766px){#menuOnCollapse ul{float: right; } }
