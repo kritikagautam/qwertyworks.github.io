@@ -1,0 +1,146 @@
+body{background-color:black;font-family:PT sans Narrow;overflow-x:hidden;scroll-behavior:smooth;overflow-y:scroll;-webkit-overflow-scrolling: touch;}
+html,body{width:100%;height:100%;margin:0px;padding:0px;overflow-x:hidden;}
+#home{background-color:black;height:100vh;max-width:100%;height:auto;padding-top:0px;}
+#logo{margin-top:150px;}
+#myCarousel{margin-top:55px;max-width:100%;height:auto;}
+.navbar{min-height:80px; background-color: transparent;background: transparent;}
+.navbar ul{padding:0px;margin:0px;text-align:center;display:inline-block;vertical-align:top;}
+.navbar-brand{font-size:30px !important;color:black;font-family:PT sans Narrow;}
+#mainHeading{color:white;font-size:60px;}
+#tagLine{color:white;}
+#line{color:white;}
+#toTop{position:fixed;bottom:10px;left:10px;border-radius:50%;cursor:pointer;}
+.glyphicon:hover,.glyphicon:checked{color:#ff9900;}
+.section{height:100vh;background-color:black;color:white;padding-top:50px;font-family:PT sans Narrow;}
+.sectionHome{background-color:black;color:white;}
+.sectionFeatures{height:100vh;background-color:black;color:white;}
+.sectionFooter{height:600px;background-color:orange;}
+#productLeft{max-width:100%;height:auto;}
+#productLeft:hover{content:url(https://i.imgur.com/1XT7SAc.png);}
+#productRight{max-width:100%;height:auto;}
+#productRight:hover{content:url(https://i.imgur.com/vPANkgY.png);}
+#product{background-color:black;color:white;font-size:18px;padding-top:60px;max-width:100%;height:auto;}
+#downloadLogoGoogle{width:200px;margin-top:10px;margin-left: -10px;}
+#downloadLogoApple{width:170px;margin-bottom:10px;margin-top:10px;}
+#downloadButtonSection{height:auto;max-width:100%;background-color:#abb6c9;color:black;margin-top:40px;}
+.brightness{background-color:#abb6c9;}
+.brightness img:hover{opacity:.7;}
+img{max-width:100%;height:auto;}
+.brightness img{max-width:100%;height:auto;background-repeat:no-repeat;}
+#footer{height:30px;font-size:20px;background-color:#f4a142;}
+#copyright{text-align:right;}
+#features{padding-top:25px;max-width:100%;height:auto;padding-bottom:30px;margin:auto;}
+.buyNowButton{margin-top:20px;width:100px;}
+.faqButton{background-color:#31B0D5;color:white;padding:10px 20px;border-radius:4px;border-color:#46b8da;margin-right:20px;}
+#faqButton{position:fixed;bottom:-4px;right:5px;}
+#app{max-width:100%;height:auto;}
+#app a{text-decoration:none;color:white;font-size:18px;text-align:center;}
+#app a:hover{color:#ff9900;}
+.card-title{font-family:PT sans Narrow;font-size:20px;text-align:center;}
+@media (max-width:765px){#steps .container-fluid .row .col-sm-6 img{display:none;}
+}
+@media (max-width:765px){#steps .container-fluid .row .col-sm-6 img{display:none;}
+#steps .container .row{padding-bottom:50px;}
+}
+@media (max-width:765px){#home{padding-top: 21%; padding-bottom: 21%;}
+}
+@media (max-width:765px){#steps .container .row .w-100 .buy{margin-top:250px;margin-left:200px;}
+}
+@media (max-width:765px){#steps .container-fluid .row{margin-right:100px;}
+}
+.quote {color: rgba(0,0,0,0.1); text-align: center margin-right:30px; }
+#fade-quote-carousel.carousel {padding-bottom: 60px; }
+#fade-quote-carousel.carousel .carousel-inner .item {opacity: 0; -webkit-transition-property: opacity; -ms-transition-property: opacity; transition-property: opacity; }
+#fade-quote-carousel.carousel .carousel-inner .active {opacity: 1; -webkit-transition-property: opacity; -ms-transition-property: opacity; transition-property: opacity; }
+#fade-quote-carousel.carousel .carousel-indicators {bottom: 10px;  }
+#fade-quote-carousel.carousel .carousel-indicators > li {background-color: #e84a64; border: none; }
+#fade-quote-carousel blockquote {text-align: center; border: none; }
+#fade-quote-carousel .profile-circle {width: 100px; height: 100px; margin: 0 auto; border-radius: 100px; }
+.dropdown-toggle{color: black;}
+.fa {padding: 20px; font-size: 30px; width: 50px; text-align: center; text-decoration: none; }
+@media(min-width: 766px){#menuOnCollapse ul{float: right; } }
+.carousel blockquote{color: white;}
+@media(max-width: 320px){#steps .container-fluid .row .col-sm-2 p{margin-left: -20px; width: 100px; } }
+@media(max-width: 361px) {
+	#downloadLogoApple{
+		height: auto;
+		width:45%;
+	}
+	#downloadLogoGoogle{
+		height: auto;
+		width:50%;
+	}
+}
+@media(max-width: 900px){
+	#myCarousel ol li{
+
+		border:transparent;
+		background-color: transparent;
+	}
+	.carousel-inner .carousel-caption h3{
+		margin-bottom: -20px;
+		font-size: 3vw;
+
+	}
+
+}
+
+
+#flip {
+	  margin-top: 10px;
+    width:250px;
+		padding: 5px;
+    text-align: center;
+    background-color: transparent;
+
+		border-radius: 8px;
+		color:white;
+		max-width: 100%;
+		height:auto;
+}
+
+#panel {
+	  padding-top: 5px;
+	  width:400px;
+		height:200px;
+    display: none;
+		border-radius: 10px;
+    text-align: center;
+    background-color:transparent;
+		color: white;
+		max-width: 100%;
+		height:auto;
+}
+
+#flip a:hover{
+	cursor:pointer;
+}
+
+#flip1 {
+	  margin-top: 10px;
+    width:250px;
+		padding: 5px;
+    text-align: center;
+    background-color: transparent;
+		border-radius: 8px;
+		color:white;
+		max-width: 100%;
+		height:auto;
+}
+
+#flip1 a:hover{
+	cursor:pointer;
+}
+
+#panel1 {
+	  padding-top: 5px;
+	  width:400px;
+		height:200px;
+    display: none;
+		border-radius: 10px;
+    text-align: center;
+    background-color:transparent;
+		color: white;
+		max-width: 100%;
+		height:auto;
+}

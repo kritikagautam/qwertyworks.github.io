@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width-device-width , initial-scale=1.0 ">
+
+       <title>QwertyWorks</title>
+       <link rel="stylesheet" type="text/css" href="css\homePage.css">
+       <link href="https://fonts.googleapis.com/css?family=Oswald|Song+Myung" rel="stylesheet">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+       <link rel="shortcut icon" sizes="114x114" href="images\Logo.png" type="image/x-icon">
+       <link href="https://fonts.googleapis.com/css?family=Forum" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montaga|Open+Sans|Petrona|Slabo+27px|Source+Sans+Pro|PT sans Narrow|PT sans Narrow" rel="stylesheet">
+        <meta http-equiv="X-UA-Compatible" content="IE=10">
+
+
+
+       <script>
+        $(document).ready(function(){
+        $('body').append('<div id="toTop" class="btn btn-warning btn-lg btn3d"><span class="glyphicon glyphicon-chevron-up"></span></div>');
+        $(window).scroll(function () {
+            if ($(this).scrollTop() != 0) {
+                $('#toTop').fadeIn();
+            } else {
+                $('#toTop').fadeOut();
+            }
+        });
+        $('#toTop').click(function(){
+             $("html,body").animate({ scrollTop: 0 }, 500);
+        return false;
+    });
+});
+
+</script>
+
+
+
+
+
+
+</head>
+
+    <body data-spy="" data-target=".navbar" data-offset="50">
+        <nav class="navbar navbar-default navbar-fixed-top" id="topNavbar">
+
+            <div class="container-fluid">
+
+                <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="margin-right: 20px;">
+
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+
+                </button>
+                <a class="navbar-brand" href="#useless"><img src="images\Logo.png" width="32.5px" height="32.5px" style="margin-top: -5px;"  ></a>
+                <a class="navbar-brand" href="#useless" style="color: black; margin-left: -22.5px;">QwertyWorks</a>
+                </div>
+
+                <div id="menuOnCollapse">
+                    <div class="collapse navbar-collapse" id="myNavbar" align="center">
+                        <ul class="nav navbar-nav float-right" style=" ">
+                            <li><a href="#product" style="color: black;font-family: PT sans Narrow;font-size: 25px;"></style>Product</a></li>
+                            <li><a href="#app" style="color: black;font-family: PT sans Narrow;font-size: 25px;">App</a></li>
+                            <li><a href="#features" style="color: black;font-family: PT sans Narrow;font-size: 25px;">Features</a></li>
+                            <li><a href="#why" style="color: black;font-family: PT sans Narrow;font-size: 25px;">Why SmartBulbs</a></li>
+                            <li><a target="_blank" href="https://www.amazon.in"style="color: black;font-family: PT sans Narrow;font-size: 25px;"><img src="images\amazonIcon.png" width="25px" height="25px" style=""></a></li>
+                            <li><a target="_blank" href="https://www.flipkart.com"style="color: black;font-family: PT sans Narrow;font-size:25px;"><img src="images\flipkartIcon.png" width="25px" height="25px" style=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="useless">
+
+        </div>
+
+        <div data-spy="" data-target="#navbar-example2" data-offset="0">
+            <div id="home">
+                <div class="sectionHome">
+                    <center>
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            <li data-target="#myCarousel" data-slide-to="4"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="images\home.jpg" style="width:100%;height:auto;">
+                                <div class="carousel-caption">
+                                    <h3 style="font-size: 4vw; font-family: PT sans Narrow;">Get Creative</h3>
+                                </div>
+                            </div>
+
+                        <div class="item">
+                            <img src="images\home1.jpg" style="width:100%;height:auto;">
+                            <div class="carousel-caption">
+                                <h3 style="font-size: 4vw; font-family: PT sans Narrow;">Enhance your space</h3>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="images\home2.jpg" style="width:100%;height:auto;">
+                            <div class="carousel-caption">
+                                <h3 style="font-size: 4vw; font-family: PT sans Narrow;">Wake up to bright light every morning</h3>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="images\home3.jpg" style="width:100%;height:auto;">
+                            <div class="carousel-caption">
+                                <h3 style="font-size: 4vw; font-family: PT sans Narrow;">Suit your mood</h3>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="images\home4.jpg" style="width:100%;height:auto;">
+                            <div class="carousel-caption">
+                                <h3 style="font-size: 4vw; font-family: PT sans Narrow;">Control with your phone</h3>
+                            </div>
+                        </div>
+
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                        </a>
+
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    </center>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="product" class="section">
+            <div class="container-fluid" style="max-width:100%;">
+                <div class="row">
+                    <div class="col-xs-6" style="background-color:#875F9A;">
+                        <div class="part1">
+                            <br>
+                                    <center>
+                                        <h2 style="margin-top: -10px; width: 100% max-width:768px; font-size: 4vw;">Warm White</h2>
+                                    </center>
+
+                                    <center>
+                                        <img id="productLeft" src="images\productfront.png" width="200px" height="200px">
+                                        <div id="flip"><a style="text-decoration:none;color:white;"><blink>Know more about the features!<br><span class="glyphicon glyphicon-chevron-down"><br><span class="glyphicon glyphicon-chevron-down"></span></blink></a></div>
+                                        <div id="panel">
+                                            <p>feature 1</p>
+                                            <p>feature 2</p>
+                                            <p>feature 3</p>
+                                        </div>
+                                    </center>
+
+
+                                    <center>
+                                        <a href="buyNowLeft.html"><img src="images\buyNow.png" width="200px" height="150px"></a>
+                                    </center>
+
+                       </div>
+                    </div>
+
+                    <div class="col-xs-6">
+                        <div class="part2">
+                            <br>
+                            <center><h2 style="margin-top: -10px; font-size: 4vw;">Cool White</h2></center>
+                            <center><img id="productRight" src="images\productfront.png" width="200px" height="200px">
+                              <div id="flip1"><a style="text-decoration:none;color:white;">Know more about the features!<br><span class="glyphicon glyphicon-chevron-down"><br><span class="glyphicon glyphicon-chevron-down"></span></a></div>
+                              <div id="panel1">
+                                  <p>feature 1</p>
+                                  <p>feature 2</p>
+                                  <p>feature 3</p>
+                              </div></center>
+                            <center>
+                                <a href="buyNowRight.html"><img src="images\buyNow.png" width="200px" height="150px"></a>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="app" class="section">
+
+            <div id="steps" class="sectionSteps">
+                <center>
+                    <h2>
+                        Make it easy!
+                    </h2>
+                </center>
+                <div class="container-fluid" style="height:auto;padding-top:50px;max-width: 100%;">
+
+                    <div class="row" style="margin-left: 100px;">
+                        <div class="col-sm-2" style="margin-top: 0px; ">
+                            <center><img src="images\install.png" style="width:100%; height:100%"><center><br>
+                            <b><p style="font-size:18px;"> Install the bulb in the bulb holder</p></b>
+                        </div>
+                        <div class="col-sm-2" style="margin-top: 0px;">
+                            <center><img src="images\download.png" style="width:100%; height:100%;"></center><br>
+                            <b><center><p style="font-size:18px;">Download the app from the play store</p></center></b>
+                        </div>
+
+                        <div class="col-sm-2" style="margin-top: 0px;">
+                            <center><img src="images\phone.png" style="width:100%; height:100%;"></center><br>
+                            <b><center><p style="font-size:18px;"> Scan for the device and you are done!</p></center></b>
+                        </div>
+
+                        <div class="col-sm-6" style="">
+                            <center>
+                                <img src="images\iphone.jpg" style="width: 100%;height: auto; padding-bottom:-30px;">
+                            </center>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <div id="downloadButtonSection">
+                <center>
+                    <h2 style="padding-top: 20px; font-family: PT sans Narrow">App available for download</h2>
+                <div class="brightness">
+                    <center>
+                        <a href="https://www.google.com">
+                        <img src="images\GooglePlay.png" id="downloadLogoGoogle" class="downloadLogo" height="auto" style="max-width: 100%;">
+                    </a>
+                    <a href="https://www.apple.com">
+                        <img src="images\AppStore.png" id="downloadLogoApple" class="downloadLogo"  height="auto" style="max-width: 100%;">
+                    </a>
+                    </center>
+
+                </div>
+                </center>
+
+            </div>
+        </div>
+
+        <div id="features" class="sectionFeatures">
+            <center>
+                <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-sm-4" style="background-color: #875F9A;">
+                    <div class="card" style="width: 200px;">
+                        <img class="card-img-top" src="images\feature1.png" alt="Card image cap">
+                        <div class="card-body">
+                            <center><h4 class="card-title">Millions of colours</h4></center>
+                            <p>Unleash your creativity! QwertyWorks bulb can emit millions of different colors  Choose the one that suits your mood the best</p>
+
+
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="col-sm-4" style="background-color: #282828;">
+                    <div class="card" style="width: 200px;">
+                        <img class="card-img-top" src="images\feature2.png" alt="Card image cap">
+                        <div class="card-body">
+                            <center><h4 class="card-title">Voice Control</h4></center>
+                            <p>Now control your lighting with your voice  QwertyWorks bulb connects with Google assistant on your phone , Google Home speaker and Amazon Alexa</p>
+
+
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="col-sm-4" style="background-color: #875F9A;">
+                    <div class="card" style="width: 200px;">
+                        <img class="card-img-top" src="images\feature3.png" alt="Card image cap">
+                        <div class="card-body">
+                            <center><h4 class="card-title">No hub needed</h4></center>
+                            <p>Even we hate boxes which take up space  QwertyWorks bulb works without any hub . Just plug-in , and it's bright light everywhere.</p>
+
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-4" style="background-color: #282828;">
+                    <div class="card" style="width: 200px;">
+                        <div class="row" style="padding-top: 50px;">
+                            <div class="col-sm-6">
+                                <img src="images\feature4(1).png">
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="images\feature4(2).png" >
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="card-body" style="padding-top: 62.5px;">
+                            <center><h4 class="card-title">Works with Alexa And Google Assistant</h4></center>
+                            <p>QwertyWorks bulb connects with google assistant (either on your phone or with google home assistant) and with Alexa</p>
+
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="col-sm-4" style="background-color: #875F9A;">
+                    <div class="card" style="width: 200px;">
+                        <img class="card-img-top" src="images\feature5.png" alt="Card image cap">
+                        <div class="card-body">
+                            <center><h4 class="card-title">Dimmable</h4></center>
+                            <p>Too bright or Too dim . We've got your covered . QwertyWorks bulb comes with adjustable brightness which can be controlled using your phone.</p>
+
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="col-sm-4" style="background-color: #282828;">
+                    <div class="card" style="width: 200px;">
+                        <img class="card-img-top" src="images\feature6.png" alt="Card image cap">
+                        <div class="card-body">
+                            <center><h4 class="card-title">Sets Alarm with Light</h4></center>
+                            <p>We know that you hate the same alarm going off every morning . Now wake up every morning to bright light and not to the same old tune.</p>
+
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            </center>
+        </div>
+
+
+        <div id="why" style="padding-top: 60px;height: auto;max-width: 100%; background-color: #224377">
+
+
+            <center>
+                <iframe width="800px" style="max-width: 100%;margin-bottom: 50px;" height="400px;" style="max-width: 100%;height: auto;" src="https://www.youtube.com/embed/wd9-VP2LzM8"  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen ></iframe>
+            </center>
+
+            <!-- <center>
+                <section id="carousel">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
+                                    <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
+                                            <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+                                            <li data-target="#fade-quote-carousel" data-slide-to="2"></li>
+                                        </ol>
+
+                                        <div class="carousel-inner">
+                                            <div class="active item">
+                                                <blockquote>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                                </blockquote>
+                                            </div>
+
+                                            <div class="item">
+                                                <blockquote>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                                </blockquote>
+
+                                            </div>
+
+                                            <div class="item">
+                                                <blockquote>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                                </blockquote>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </center> -->
+        </div>
+
+
+        <div id="footer" style="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        Made with &hearts; in INDIA
+                    </div>
+                    <div class="col-sm-6" id="copyright">
+                        &copy; QwertyWorks 2018 . All Rights Reserved
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="faqButton">
+            <a href="faq.html"><button class="faqButton">FAQs</button></a>
+        </div>
+
+        <script type="text/javascript" src="js\homePage.js"></script>
+    </body>
+</html>
+
+
+<!-- <li>
+    <div class="dropdown show">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;font-family: PT sans Narrow;font-size: 25px;">
+                                Get In Touch
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" target="_blank"; href="https://www.facebook.com" style="margin-left: 40px; font-size: 20px; font-family: PT sans Narrow; color: black;" >
+                                     Facebook
+                </a><br>
+                <a class="dropdown-item" target="_blank"; href="https://www.linkedin.com" style="margin-left: 40px; font-size: 20px; font-family: PT sans Narrow; color: black;">
+                                    LinkedIn
+                </a><br>
+                <a class="dropdown-item" target="_blank"; href="https://mail.google.com/mail/?view=cm&fs=1&to=example@example.com" style="margin-left: 40px; font-size: 20px; font-family: PT sans Narrow; color: black;">
+                                    Gmail
+                </a>
+        </div>
+    </div>
+</li> -->
