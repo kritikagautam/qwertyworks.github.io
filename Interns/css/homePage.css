@@ -16,9 +16,9 @@ html,body{width:100%;height:100%;margin:0px;padding:0px;overflow-x:hidden;}
 .sectionFeatures{height:100vh;background-color:#4a77bf;color:white;}
 .sectionFooter{height:600px;background-color:orange;}
 #productLeft{max-width:100%;height:auto;}
-#productLeft:hover{content:url("https://imgur.com/vPANkgY.png");}
+#productLeft:hover{content:url(https://i.imgur.com/1XT7SAc.png);}
 #productRight{max-width:100%;height:auto;}
-#productRight:hover{content:url("https://imgur.com/1XT7SAc.png");}
+#productRight:hover{content:url(https://i.imgur.com/vPANkgY.png);}
 #product{background-color:#4b6360;color:white;font-size:18px;padding-top:60px;max-width:100%;height:auto;}
 #downloadLogoGoogle{width:200px;margin-top:10px;margin-left: -10px;}
 #downloadLogoApple{width:170px;margin-bottom:10px;margin-top:10px;}
@@ -26,7 +26,7 @@ html,body{width:100%;height:100%;margin:0px;padding:0px;overflow-x:hidden;}
 .brightness{background-color:#abb6c9;}
 .brightness img:hover{opacity:.7;}
 img{max-width:100%;height:auto;}
-.brightness img{max-width:100%;height:auto;background-size:contain;background-repeat:no-repeat;}
+.brightness img{max-width:100%;height:auto;background-repeat:no-repeat;}
 #footer{height:30px;font-size:20px;background-color:#f4a142;}
 #copyright{text-align:right;}
 #features{padding-top:25px;max-width:100%;height:auto;padding-bottom:30px;margin:auto;}
@@ -60,9 +60,14 @@ img{max-width:100%;height:auto;}
 .fa {padding: 20px; font-size: 30px; width: 50px; text-align: center; text-decoration: none; }
 @media(min-width: 766px){#menuOnCollapse ul{float: right; } }
 .carousel blockquote{color: white;}
-@media(max-width: 320px){
-	#steps .container-fluid .row .col-sm-2 p{
-		margin-left: -20px;
-		width: 100px;
+@media(max-width: 320px){#steps .container-fluid .row .col-sm-2 p{margin-left: -20px; width: 100px; } }
+@media(max-width: 361px) {
+	#downloadLogoApple{
+		height: auto;
+		width:45%;
+	}
+	#downloadLogoGoogle{
+		height: auto;
+		width:50%;
 	}
 }
