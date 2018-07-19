@@ -7,3 +7,15 @@ function preloadImage(url)
 }
 preloadImage("https://i.imgur.com/1XT7SAc.png");
 preloadImage("https://i.imgur.com/vPANkgY.png");
+
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+
+$(document).ready(function(){
+    $("#flip1").click(function(){
+        $("#panel1").slideToggle("slow");
+    });
+});
